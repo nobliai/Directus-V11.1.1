@@ -1,0 +1,41 @@
+source: /app/src/
+collections_config:
+  interfaces:
+    path: interfaces
+    name: Interfaces
+    icon: interests
+  lang:
+    path: lang
+    name: Lang
+    icon: lan
+  utils_readable_mime_type:
+    path: utils/readable-mime-type
+    name: Utils Readable Mime Type
+    icon: store_mall_directory
+  views:
+    path: views
+    name: Views
+    icon: reviews
+paths:
+  static: static
+  uploads: static/uploads
+timezone: Africa/Cairo
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
+    linkify: false
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    breaks: false
+    xhtml: false
+    attributes: false
+    typographer: false
+    treat_indentation_as_code: true
+_snippets_imports:
+  hugo:
+    exclude:
+      - hugo_instagram
